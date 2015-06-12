@@ -27,7 +27,7 @@ describe('aurelia skeleton app', function() {
     // For now there is a timing issue with the binding.
     // Until resolved we will use a short sleep to overcome the issue.
     browser.sleep(200);
-    expect(po_welcome.getFullname()).toBe('ROB EISENBERG');
+    expect(po_welcome.getFullname()).toBe('Rob Eisenberg');
   });
 
   it('should show alert message when clicking submit button', () => {
